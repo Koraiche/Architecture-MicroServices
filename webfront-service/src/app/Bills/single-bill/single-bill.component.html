@@ -1,0 +1,14 @@
+<div class="container jumbotron">
+    <h2>Bill Details</h2>
+    <div>
+        <h5><b>Customer details</b></h5> 
+        <h6>Name : {{bill.customer.name}}</h6>
+        <h6>Email : {{bill.customer.email}}</h6>
+    </div>
+    <div>
+        <h6>Billing date {{bill.billingDate|date}} </h6>
+        <ul>
+            <li *ngFor="let i of bill.productItems">Product name : {{i.productName}} <br/>Price : {{i.price}}  Quantity : {{i.quantity}}</li>
+        </ul>
+    </div>
+</div>

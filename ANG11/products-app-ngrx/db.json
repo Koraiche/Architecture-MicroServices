@@ -1,0 +1,44 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Computer",
+      "price": 4300,
+      "quantity": 500,
+      "selected": true,
+      "available": true
+    },
+    {
+      "id": 2,
+      "name": "Printer",
+      "price": 3000,
+      "quantity": 400,
+      "selected": true,
+      "available": true
+    },
+    {
+      "id": 3,
+      "name": "Smartphone",
+      "price": 3000,
+      "quantity": 400,
+      "selected": true,
+      "available": false
+    },
+    {
+      "name": "fr",
+      "price": "044",
+      "quantity": "0444",
+      "selected": false,
+      "available": true,
+      "id": 5
+    },
+    {
+      "id": 6,
+      "name": "ffff",
+      "price": "1111",
+      "quantity": "01111",
+      "selected": true,
+      "available": true
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Computerrrrr",
+      "price": 4300,
+      "quantity": 500,
+      "selected": false,
+      "available": true
+    },
+    {
+      "id": 2,
+      "name": "Printer",
+      "price": 3000,
+      "quantity": 400,
+      "selected": false,
+      "available": true
+    },
+    {
+      "id": 3,
+      "name": "Smartphone",
+      "price": 3000,
+      "quantity": 400,
+      "selected": false,
+      "available": false
+    },
+    {
+      "name": "prod",
+      "price": "300",
+      "quantity": "55",
+      "selected": true,
+      "available": true,
+      "id": 4
+    },
+    {
+      "name": "ydj",
+      "price": 0,
+      "quantity": 0,
+      "selected": true,
+      "available": true,
+      "id": 6
+    }
+  ]
+}

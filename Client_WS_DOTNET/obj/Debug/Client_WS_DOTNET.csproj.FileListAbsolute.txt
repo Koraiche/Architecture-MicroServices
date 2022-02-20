@@ -1,0 +1,7 @@
+C:\Users\IBM\Desktop\Client_WS_DOTNET\bin\Debug\Client_WS_DOTNET.exe.config
+C:\Users\IBM\Desktop\Client_WS_DOTNET\bin\Debug\Client_WS_DOTNET.exe
+C:\Users\IBM\Desktop\Client_WS_DOTNET\bin\Debug\Client_WS_DOTNET.pdb
+C:\Users\IBM\Desktop\Client_WS_DOTNET\obj\Debug\Client_WS_DOTNET.csproj.AssemblyReference.cache
+C:\Users\IBM\Desktop\Client_WS_DOTNET\obj\Debug\Client_WS_DOTNET.csproj.CoreCompileInputs.cache
+C:\Users\IBM\Desktop\Client_WS_DOTNET\obj\Debug\Client_WS_DOTNET.exe
+C:\Users\IBM\Desktop\Client_WS_DOTNET\obj\Debug\Client_WS_DOTNET.pdb

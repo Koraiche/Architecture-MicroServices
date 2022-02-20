@@ -1,0 +1,24 @@
+<nav class="navbar navbar-expand-sm bg-light navbar-light">
+  <ul class="navbar-nav">
+  <li class="item">
+    <button [ngClass]="state.currentAction?.type==ProductsActionsTypes.GET_ALL_PRODUCTS_SUCCESS?'btn-danger':'btn-outline-info'"  class="btn  btn-sm" (click)="onGetAllProducts()">All</button>
+  </li>
+  <li class="item">
+    <button [ngClass]="state.currentAction?.type==ProductsActionsTypes.GET_SELECTED_PRODUCTS_SUCCESS?'btn-danger':'btn-outline-info'" class="btn mx-2 btn-sm" (click)="onGetSelectedProducts()">Selected</button>
+  </li>
+    <li class="item">
+      <button class="btn btn-outline-info mx-2 btn-sm" (click)="onNewProduct()">New</button>
+    </li>
+  </ul>
+  <ul class="navbar-nav ms-auto">
+    <li>
+      <form #f="ngForm" (ngSubmit)="onSearch(f.value)" class="form-check-inline">
+          <input type="text" ngModel name="keyword" >
+        <button type="submit" class="btn btn-outline-info btn-sm" [ngClass]="state.currentAction?.type==ProductsActionsTypes.SEARCH_PRODUCTS_SUCCESS?'btn-danger':'btn-outline-info'">
+            <i class="fa fa-search"></i>
+          Search
+        </button>
+      </form>
+    </li>
+  </ul>
+</nav>
