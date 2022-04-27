@@ -28,7 +28,7 @@
       "name": "fr",
       "price": "044",
       "quantity": "0444",
-      "selected": false,
+      "selected": true,
       "available": true,
       "id": 5
     },

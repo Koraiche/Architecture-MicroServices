@@ -1,0 +1,42 @@
+Private key :
+[48, -126, 1, 84, 2, 1, 0, 48, 13, 6, 9, 42, -122, 72, -122, -9, 13, 1, 1, 1, 5, 0, 4, -126, 1, 62, 48, -126, 1, 58, 2, 1, 0, 2, 65, 0, -101, 83, 29, 88, 83, 64, -120, -36, -123, 71, 64, -123, 81, -9, 13, -62, 0, -113, 28, 96, 35, -99, -4, -68, 68, 86, 30, 108, 60, 109, -33, 83, 120, 13, -61, -106, -55, 115, 46, 96, 65, 92, 19, 49, -46, -19, 28, -64, -123, 88, -41, -30, -79, 0, 1, -82, 4, 69, 25, -23, 69, 108, -73, -71, 2, 3, 1, 0, 1, 2, 64, 60, -16, -54, 53, -86, 76, 74, -90, 66, -64, 102, -25, 39, -10, -121, 118, 83, 99, -46, -35, 65, 124, 45, -7, -21, -47, -30, 19, -45, 77, -60, 109, -51, -73, -36, -29, -122, 15, 14, 105, -46, -71, -120, -65, 24, -62, -73, 105, -63, 56, -13, -94, 3, -20, 25, 72, -73, -118, -35, 39, 90, -98, 24, -75, 2, 33, 0, -49, 80, 19, -92, -55, 37, 78, -34, -60, -113, 40, 88, 105, -95, -110, 100, 3, 103, 80, -39, 92, 103, 64, 111, 46, 101, 36, 11, 67, 76, 99, -49, 2, 33, 0, -65, -51, 113, 17, -87, 118, 51, 73, -123, -19, 53, -54, -54, 112, 42, -60, -62, -44, 122, 39, 85, 28, -1, -62, -25, 123, 55, -40, 4, 92, -91, -9, 2, 33, 0, -112, 64, -90, 10, -119, -76, 30, 23, 64, 42, 100, -26, 112, 73, -18, -11, 12, -79, 61, 62, -95, -33, 110, -92, 110, 98, 14, 28, -112, 45, 125, 93, 2, 32, 83, 11, -56, -31, 52, -42, -112, -18, 76, -90, -96, -101, -27, 123, 27, -119, -122, 50, 41, -111, -50, 48, 120, 45, 19, -67, 46, 56, -63, -22, -69, -111, 2, 32, 60, -100, -39, -82, 101, -84, 62, -30, -97, 88, 3, 116, 57, 89, 68, -107, -103, -57, 88, -43, 118, -12, 59, -59, 107, -76, 64, -78, 60, -58, -9, -12]
+MIIBVAIBADANBgkqhkiG9w0BAQEFAASCAT4wggE6AgEAAkEAm1MdWFNAiNyFR0CFUfcNwgCPHGAjnfy8RFYebDxt31N4DcOWyXMuYEFcEzHS7RzAhVjX4rEAAa4ERRnpRWy3uQIDAQABAkA88Mo1qkxKpkLAZucn9od2U2PS3UF8Lfnr0eIT003Ebc233OOGDw5p0rmIvxjCt2nBOPOiA+wZSLeK3Sdanhi1AiEAz1ATpMklTt7EjyhYaaGSZANnUNlcZ0BvLmUkC0NMY88CIQC/zXERqXYzSYXtNcrKcCrEwtR6J1Uc/8LnezfYBFyl9wIhAJBApgqJtB4XQCpk5nBJ7vUMsT0+od9upG5iDhyQLX1dAiBTC8jhNNaQ7kymoJvlexuJhjIpkc4weC0TvS44weq7kQIgPJzZrmWsPuKfWAN0OVlElZnHWNV29DvFa7RAsjzG9/Q=
+344
+Public key :
+[48, 92, 48, 13, 6, 9, 42, -122, 72, -122, -9, 13, 1, 1, 1, 5, 0, 3, 75, 0, 48, 72, 2, 65, 0, -101, 83, 29, 88, 83, 64, -120, -36, -123, 71, 64, -123, 81, -9, 13, -62, 0, -113, 28, 96, 35, -99, -4, -68, 68, 86, 30, 108, 60, 109, -33, 83, 120, 13, -61, -106, -55, 115, 46, 96, 65, 92, 19, 49, -46, -19, 28, -64, -123, 88, -41, -30, -79, 0, 1, -82, 4, 69, 25, -23, 69, 108, -73, -71, 2, 3, 1, 0, 1]
+MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAJtTHVhTQIjchUdAhVH3DcIAjxxgI538vERWHmw8bd9TeA3DlslzLmBBXBMx0u0cwIVY1+KxAAGuBEUZ6UVst7kCAwEAAQ==
+94
+LtRPRLFUVzeAoL2y07w9rNYXGlhm6Yqsj9JvebAAwcedOYTGct7wUdwM/aHbSXdmBjbz9xvuk+lYm1y8mYZZKw==
+
+/*KeyPair keyPair = generateKeyPair();
+        PrivateKey privateKey = keyPair.getPrivate();
+        PublicKey publicKey = keyPair.getPublic();
+        System.out.println("Private key :");//this one is always bigger
+        System.out.println(Arrays.toString(privateKey.getEncoded()));
+        System.out.println(Base64.getEncoder().encodeToString(privateKey.getEncoded()));
+        System.out.println(privateKey.getEncoded().length);
+        System.out.println("Public key :");
+        System.out.println(Arrays.toString(publicKey.getEncoded()));
+        System.out.println(Base64.getEncoder().encodeToString(publicKey.getEncoded()));
+        System.out.println(publicKey.getEncoded().length);
+        */
+          /*
+
+                Cipher cipher = Cipher.getInstance("RSA");
+                cipher.init(Cipher.ENCRYPT_MODE,publicKey);
+                byte[] encryptedBytes = cipher.doFinal(data.getBytes());
+                System.out.println("Encrypted message");
+                System.out.println(Base64.getEncoder().encodeToString(encryptedBytes));
+                String encrypted = Base64.getEncoder().encodeToString(encryptedBytes);
+
+                Cipher decipher = Cipher.getInstance("RSA");
+                cipher.init(Cipher.DECRYPT_MODE,privateKey);
+                byte[] decryptedBytes = cipher.doFinal(Base64.getDecoder().decode(encrypted));
+                System.out.println("Decrypted message");
+                System.out.println(new String(decryptedBytes));
+                String decrypted = Base64.getEncoder().encodeToString(decryptedBytes);
+
+        */
+
+        keytool -genkey -alias fahd -keyalg RSA -keystore fahd.jks -keysize 2048
+        keytool -export -alias fahd -keystore fahd.jks -rfc -file myCertificate.cert
